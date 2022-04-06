@@ -1,0 +1,36 @@
+.header__link {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	letter-spacing: 0.1px;
+	color: #FFFFFF;
+	cursor: pointer;
+	transition: opacity 0.3s ease 0s;
+}
+
+.header__link._no-active {
+	opacity: 0.5;
+}
+
+@media screen and (max-width: 992px) {
+	.header__link {
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header__link {
+		font-size: 20px;
+		max-width: max-content;
+	}
+
+	.header__link._spoller-active {
+		font-weight: 600;
+		opacity: 1;
+	}
+
+	.header__link:hover {
+		text-decoration: underline;
+	}
+}

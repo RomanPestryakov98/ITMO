@@ -1,0 +1,63 @@
+.icon-menu {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	/* отображаем курсор в виде руки при наведении; некоторые
+	считают, что необходимо оставлять стрелочный вид для кнопок */
+	cursor: pointer;
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.icon-menu {
+		display: block;
+		position: absolute;
+		left: 15px;
+		width: 30px;
+		height:  18px;
+		cursor: pointer;
+		z-index: 5;
+	}
+
+	.icon-menu span, .icon-menu::before, .icon-menu::after {
+		content: "";
+		transition: all 0.3s ease 0s;
+		right: 0;
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		background-color: white;
+	}
+
+	.icon-menu::before {
+		top: 0;
+	}
+
+	.icon-menu::after {
+		bottom: 0;
+	}
+
+	.icon-menu span {
+		top: calc(50% - 1px);
+	}
+
+	.menu-open .icon-menu span {
+		width: 0;
+	}
+
+	.menu-open .icon-menu::before {
+		top: calc(50% - 1px);
+		transform: rotate(-45deg);
+	}
+	.menu-open .icon-menu::after {
+		bottom: calc(50% - 1px);
+		transform: rotate(45deg);
+	}
+
+	.menu-open .icon-menu {
+		left: auto;
+		right: 15px;
+	}
+}

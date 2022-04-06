@@ -1,0 +1,18 @@
+.header__menu {
+	transition: left 0.3s ease 0s;
+}
+
+@media screen and (max-width: 768px) {
+	.header__menu {
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		left: -100%;
+		top: 80px;
+		background-color: #000D26;
+	}
+}
+
+.menu-open .header__menu {
+	left: 0;
+}

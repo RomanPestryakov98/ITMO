@@ -1,0 +1,19 @@
+.header__container {
+	max-width: 1110px;
+	margin: 0 auto;
+	min-height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+	.header__container {
+		justify-content: center;
+	}
+}
+
+.menu-open .header__container {
+	justify-content: flex-start;
+}
