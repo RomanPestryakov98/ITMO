@@ -1,0 +1,33 @@
+.submenu-header__item {
+	background-color: #000D26;
+	transition: background-color 0.3s ease 0s;
+}
+
+@media screen and (min-width: 768px) {
+	.submenu-header__item {
+		padding: 7px;
+	}
+	.submenu-header__item:hover {
+		background-color: #009FAC;
+	}
+	
+	.submenu-header__item:hover .submenu-header__link {
+		font-weight: 600;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.submenu-header__item {
+		padding: 12.5px 0;
+		padding-left: 15px;
+		margin-left: -15px;
+	}
+
+	.submenu-header__item:last-child {
+		margin-bottom: -12.5px;
+	}
+
+	.submenu-header__item:hover {
+		background-color: #001337;
+	}
+}

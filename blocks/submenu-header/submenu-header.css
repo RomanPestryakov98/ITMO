@@ -1,0 +1,21 @@
+.submenu-header {
+	padding: 0;
+	position: relative;
+	opacity: 1;
+	visibility: visible;
+	list-style-type: none;
+	margin-top: 12.5px;
+}
+
+@media screen and (min-width: 768px) {
+	.submenu-header  {
+		position: absolute;
+		margin: 0;
+		min-width: 100%;
+		top: calc(100%);
+		padding-top: 17px;
+		left: 0;
+		opacity: 0;
+		visibility: hidden;
+	}
+}
