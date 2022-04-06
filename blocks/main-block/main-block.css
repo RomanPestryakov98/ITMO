@@ -1,0 +1,19 @@
+.main-block {
+	color: #FFFFFF;
+	padding: 92px 0 124px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+@media screen and (max-width: 991.98px) {
+	.main-block  {
+		padding: 58px 0 120px;
+	}
+}
+
+@media screen and (max-width: 767.98px) {
+	.main-block  {
+		padding: 30px 0 60px;
+	}
+}
