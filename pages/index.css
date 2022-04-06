@@ -19,3 +19,12 @@
 @import url(../blocks/submenu-header/submenu-header.css);
 @import url(../blocks/submenu-header/__item/submenu-header__item.css);
 @import url(../blocks/submenu-header/__link/submenu__link.css);
+
+
+@import url(../blocks/main-block/main-block.css);
+@import url(../blocks/main-block/__background/main-block__background.css);
+@import url(../blocks/main-block/__container/main-block__container.css);
+@import url(../blocks/main-block/__title/main-block__title.css);
+@import url(../blocks/main-block/__subtitle/main-block__subtitle.css);
+@import url(../blocks/main-block/__button/main-block__button.css);
+@import url(../blocks/main-block/__content/main-block__content.css);
