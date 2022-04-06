@@ -1,4 +1,6 @@
 .header__logo img {
+	position: relative;
+	z-index: 25;
 	width: 150px;
 }
 
