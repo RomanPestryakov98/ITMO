@@ -27,15 +27,21 @@
 	}
 }
 
+@media screen and (max-width: 1100px) {
+	.header__item {
+		padding: 12.5px 11px;
+	}
+}
+
 @media screen and (max-width: 992px) {
 	.header__item {
 		padding: 12.5px 9px;
 	}
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 855px) {
 	.header__item {
-		padding: 12.5px 3px;
+		padding: 12.5px 2px;
 	}
 }
 
