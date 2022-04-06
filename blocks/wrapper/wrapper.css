@@ -1,3 +1,8 @@
 .wrapper {
 	font-family: 'OpenSans';
 }
+.lock body {
+	background-color: #EFEFEE;
+	touch-action: none;
+	overflow: hidden;
+}
