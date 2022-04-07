@@ -59,6 +59,7 @@
 @import url(../blocks/content-with-photo/content-with-photo.css);
 @import url(../blocks/content-with-photo/__column/content-with-photo__column.css);
 @import url(../blocks/content-with-photo/__photo/content-with-photo__photo.css);
+@import url(../blocks/content-with-photo/__molecul/content-with-photo__molecul.css);
 @import url(../blocks/content-with-photo/__photo/_type/content-with-photo__photo_type_right.css);
 @import url(../blocks/content-with-photo/__photo/_type/content-with-photo__photo_type_left.css);
 @import url(../blocks/content-with-photo/__text-content/content-with-photo__text-content.css);

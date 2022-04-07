@@ -1,0 +1,12 @@
+.content-with-photo__molecul {
+	position: absolute;
+	left: -40px;
+	top: 0px;
+	display: none;
+}
+
+@media screen and (min-width: 1150px) {
+	.content-with-photo__molecul {
+		display: block;
+	}
+}
