@@ -1,0 +1,15 @@
+.industrial__title {
+	margin-bottom: 60px;
+}
+
+@media screen and (max-width: 992px) {
+	.industrial__title {
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.industrial__title {
+		margin-bottom: 20px;
+	}
+}

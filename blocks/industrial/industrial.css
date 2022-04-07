@@ -1,0 +1,10 @@
+.industrial {
+	background-color: #E0F0FF;
+	padding: 80px 0;
+}
+
+@media screen and (max-width: 992px) {
+	.industrial {
+		padding: 60px 0;
+	}
+}

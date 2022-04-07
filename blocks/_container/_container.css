@@ -1,3 +1,15 @@
 ._container {
 	padding: 0 15px;
 }
+
+@media screen and (max-width: 992px) {
+	._container {
+		padding: 0 40px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	._container {
+		padding: 0 15px;
+	}
+}

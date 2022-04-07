@@ -1,0 +1,22 @@
+.content-with-photo__column {
+	position: relative;
+	flex: 1 1 auto;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.content-with-photo__column img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	top: 0;
+	left: 0;
+}
+
+
+@media screen and (max-width: 620px) {
+	.content-with-photo__column  {
+		padding-bottom: calc(180/288 * 100%);
+	}
+}
