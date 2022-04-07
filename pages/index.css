@@ -4,9 +4,10 @@
 
 @import url(../blocks/wrapper/wrapper.css);
 
-@import url(../blocks/_container/_container.css);
-
 @import url(../blocks/icon-menu/icon-menu.css);
+
+@import url(../blocks/title/title.css);
+@import url(../blocks/title/_type/title_type_blue.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);
@@ -49,3 +50,29 @@
 @import url(../blocks/card-news/__text/card-news__text.css);
 
 @import url(../blocks/swiper-slide/swiper-slide.css);
+
+@import url(../blocks/industrial/industrial.css);
+@import url(../blocks/industrial/__cards/industrial__cards.css);
+@import url(../blocks/industrial/__container/industrial__container.css);
+@import url(../blocks/industrial/__title/industrial__title.css);
+
+@import url(../blocks/content-with-photo/content-with-photo.css);
+@import url(../blocks/content-with-photo/__column/content-with-photo__column.css);
+@import url(../blocks/content-with-photo/__photo/content-with-photo__photo.css);
+@import url(../blocks/content-with-photo/__photo/_type/content-with-photo__photo_type_right.css);
+@import url(../blocks/content-with-photo/__photo/_type/content-with-photo__photo_type_left.css);
+@import url(../blocks/content-with-photo/__text-content/content-with-photo__text-content.css);
+@import url(../blocks/content-with-photo/__text-dark/content-with-photo__text-dark.css);
+@import url(../blocks/content-with-photo/__text-light/content-with-photo__text-light.css);
+
+@import url(../blocks/card-industrial/card-industrial.css);
+@import url(../blocks/card-industrial/__container/card-industrial__container.css);
+@import url(../blocks/card-industrial/__image/card-industrial__image.css);
+@import url(../blocks/card-industrial/__content/card-industrial__content.css);
+@import url(../blocks/card-industrial/__link/card-industrial__link.css);
+@import url(../blocks/card-industrial/__text/card-industrial__text.css);
+@import url(../blocks/card-industrial/__title/card-industrial__title.css);
+@import url(../blocks/card-industrial/__background/card-industrial__background.css);
+
+
+@import url(../blocks/_container/_container.css);

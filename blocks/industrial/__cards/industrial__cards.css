@@ -1,0 +1,26 @@
+.industrial__cards {
+	margin-top: 110px;
+	display: flex;
+	margin: 0 -15px;
+	
+}
+
+
+@media screen and (max-width: 992px) {
+	.industrial__cards {
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.industrial__cards {
+		flex-wrap: wrap;
+		margin: 0 -4px;
+	}
+}
+
+
+@media screen and (max-width: 620px) {
+	.industrial__cards {
+		margin-top: 0;
+	}
+}

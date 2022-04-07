@@ -1,0 +1,29 @@
+.card-industrial__link {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	width: 100%;
+	color: #001337;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border: 1px solid #001337;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 40px;
+	position: relative;
+	z-index: 2;
+	transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 992px) {
+	.card-industrial__link {
+		border-radius: 5px;
+		min-height: 32px;
+		font-size: 10px;
+		line-height: 14px;
+	}
+}
+

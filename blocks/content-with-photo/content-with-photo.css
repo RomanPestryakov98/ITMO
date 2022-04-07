@@ -1,0 +1,23 @@
+.content-with-photo {
+	display: flex;
+	gap: 30px;
+	margin-bottom: 80px;
+}
+
+@media screen and (max-width: 992px) {
+	.content-with-photo  {
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.content-with-photo  {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.content-with-photo  {
+		flex-direction: column-reverse;
+	}
+}

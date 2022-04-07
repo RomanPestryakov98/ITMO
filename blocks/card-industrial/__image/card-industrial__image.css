@@ -1,0 +1,26 @@
+.card-industrial__image {
+	background: #FFFFFF;
+	box-shadow: 0px 2.35349px 11.7674px rgba(1, 54, 157, 0.15);
+	border-radius: 36px;
+	width: 70px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	z-index: 2;
+}
+
+.card-industrial__image img {
+	
+}
+
+@media screen and (max-width: 992px) {
+	.card-industrial__image {
+		width: 41px;
+		height: 41px;
+	}
+	.card-industrial__image img {
+		width: 20px;
+	}
+}

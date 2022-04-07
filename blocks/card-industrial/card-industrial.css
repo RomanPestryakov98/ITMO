@@ -1,0 +1,11 @@
+.card-industrial {
+	flex: 0 1 22.36%;
+	padding: 0 15px;	
+}
+
+@media screen and (max-width: 767px) {
+	.card-industrial {
+		flex: 0 1 calc(50% - 8px);
+		padding: 4px 4px;
+	}
+}
