@@ -75,5 +75,17 @@
 @import url(../blocks/card-industrial/__title/card-industrial__title.css);
 @import url(../blocks/card-industrial/__background/card-industrial__background.css);
 
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_open/popup_open.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup-industrial/popup-industrial.css);
+@import url(../blocks/popup-industrial/__content/popup-industrial__content.css);
+@import url(../blocks/popup-industrial/__description/popup-industrial__description.css);
+@import url(../blocks/popup-industrial/__image/popup-industrial__image.css);
+@import url(../blocks/popup-industrial/__item/popup-industrial__item.css);
+@import url(../blocks/popup-industrial/__list/popup-industrial__list.css);
+@import url(../blocks/popup-industrial/__text/popup-industrial__text.css);
+@import url(../blocks/popup-industrial/__title/popup-industrial__title.css);
+@import url(../blocks/popup-industrial/__title-opacity/popup-industrial__title-opacity.css);
 
 @import url(../blocks/_container/_container.css);

@@ -1,0 +1,28 @@
+.popup-industrial__content {
+	display: flex;
+	background-color: white;
+	max-width: 1110px;
+	padding: 20px;
+	border-radius: 10px;
+	gap: 20px;
+	position: relative;
+	box-sizing: border-box;
+	min-height: 718px;
+}
+
+@media screen and (max-width: 1178px) {
+	.popup-industrial__content {
+		max-width: 690px;
+		min-height: 454px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.popup-industrial__content {
+		flex-direction: column;
+		padding: 16px;
+		max-width: 300px;
+		min-height: 444px;
+		gap: 0;
+	}
+}

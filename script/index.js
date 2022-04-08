@@ -4,15 +4,6 @@ flsFunction.spollers();
 
 flsFunction.menuInit();
 
-const burgerButton = document.querySelector('.icon-menu');
-
-/*burgerButton.addEventListener('click', function () {
-	document.documentElement.classList.toggle("menu-open");
-})
-*/
-
-
-
 document.addEventListener('click', function (e) {
 	const elementTarget = e.target;
 	if (elementTarget.classList.contains('header__link')) {

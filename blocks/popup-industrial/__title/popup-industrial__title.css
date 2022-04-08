@@ -1,0 +1,22 @@
+.popup-industrial__title {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	color: #000D26;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1178px) {
+	.popup-industrial__title {
+		font-size: 14px;
+		line-height: 19px;
+		margin-bottom: 27px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.popup-industrial__title {
+		display: none;
+	}
+}

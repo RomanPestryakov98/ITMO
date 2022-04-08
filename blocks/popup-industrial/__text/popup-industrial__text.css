@@ -1,0 +1,24 @@
+.popup-industrial__text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.1px;
+	color: #000000;
+	flex: 1 1 650px;
+}
+
+@media screen and (max-width: 1178px) {
+	.popup-industrial__text {
+		flex: 1 1 431px;
+		font-size: 14px;
+		line-height: 19px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.popup-industrial__text {
+		font-size: 14px;
+		line-height: 19px;
+		flex: none;
+	}
+}

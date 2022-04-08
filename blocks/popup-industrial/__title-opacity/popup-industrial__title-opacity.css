@@ -1,0 +1,14 @@
+.popup-industrial__title-opacity {
+	display: none;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	color: #000D26;
+	margin: 0 0 15px 0;
+}
+
+@media screen and (max-width: 767px) {
+	.popup-industrial__title-opacity {
+		display: block;
+	}
+}

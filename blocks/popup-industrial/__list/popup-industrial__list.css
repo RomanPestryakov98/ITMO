@@ -1,0 +1,9 @@
+.popup-industrial__list {
+	margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+	.popup-industrial__list  {
+		padding-left: 30px;
+	}
+}
