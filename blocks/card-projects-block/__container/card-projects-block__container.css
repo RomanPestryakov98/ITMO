@@ -1,0 +1,37 @@
+.card-projects-block__container {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	background-color: #009FAC;
+	border-radius: 10px;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	height: 100%;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+
+.card-projects-block__container:hover {
+	background-color: #E0F0FF;
+}
+
+.card-projects-block__container:hover .card-projects-block__logo svg {
+	fill: #001337;
+}
+
+.card-projects-block__container:hover .card-projects-block__text {
+	color: #001337;
+}
+
+.card-projects-block__container:hover .card-projects-block__button {
+	color: #001337;
+}
+
+@media screen and (max-width: 1100px) {
+	.card-projects-block__container {
+		padding: 16px;
+	}
+}

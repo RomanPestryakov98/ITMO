@@ -1,0 +1,8 @@
+.projects-block__button_active {
+	font-weight: 600;
+	
+}
+
+.projects-block__button_active.projects-block__button:before {
+	width: 100%;	
+}

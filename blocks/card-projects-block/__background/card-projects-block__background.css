@@ -1,0 +1,19 @@
+.card-projects-block__background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	mix-blend-mode: multiply;
+}
+
+.card-projects-block__background img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	object-fit: cover;
+	opacity: 0.8;
+}

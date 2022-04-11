@@ -395,7 +395,75 @@
 				</div>
 			</section>
 
+			<section class="our-projects">
+				<div class="our-projects__container _container">
+					<h2 class="title our-projects__title">НАШИ ПРОЕКТЫ</h2>
+					<div class="our-projects__projects-block projects-block">
+						<div class="projects-block__navigation">
+							<button type="button" class="projects-block__button projects-block__button_active"
+								data-value="all">ВСЕ
+								ПРОЕКТЫ</button>
+							<button type="button" class="projects-block__button" data-value="gos">ГОС. ПРОЕКТЫ</button>
+							<button type="button" class="projects-block__button"
+								data-value="spec">СПЕЦПРОГРАММЫ</button>
+							<button type="button" class="projects-block__button" data-value="dev">В РАЗРАБОТКЕ</button>
+						</div>
+						<select name="form[]" class="projects-block__select">
+							<option class="projects-block__option" data-value="all" value="1" selected>ВСЕ
+								ПРОЕКТЫ</option>
+							<option class="projects-block__option" data-value="gos" value="2">ГОС. ПРОЕКТЫ</option>
+							<option class="projects-block__option" data-value="spec" value="3">СПЕЦПРОГРАММЫ</option>
+							<option class="projects-block__option" data-value="dev" value="4">В РАЗРАБОТКЕ</option>
+						</select>
+						<template class="template-card-projects-block">
+							<article class="projects-block__card card-projects-block">
+								<div class="card-projects-block__container">
+									<div class="card-projects-block__background">
+										<img src="./images/card-project-block/1.jpg" alt="Бэкграунд">
+									</div>
+									<div class="card-projects-block__content">
+										<div class="card-projects-block__logo">
+											<svg class="icon">
+												<use xlink:href="sprite.svg#sberbank"></use>
+											</svg>
+										</div>
+										<div class="card-projects-block__text">Направление включает в себя
+											исследования
+											и
+											разработки технологий МО и КТ. Модули для внедрения в предметные сетевые
+											программы
+											магистратуры
+											с элементами МО и КТ, или программы ДПО.</div>
+
+									</div>
+									<a href="" class="card-projects-block__button">
+										Подробнее
+									</a>
+								</div>
+							</article>
+						</template>
+						<div class="projects-block__cards">
+						</div>
+						<div class="projects-block__pagination pagination-projects">
+							<div class="pagination-projects__arrows">
+								<div class="pagination-projects__arrow pagination-projects__arrow_type_prev">
+									<img src="./images/pagination-projects/prev.svg" alt="Назад">
+								</div>
+								<div class="pagination-projects__arrow pagination-projects__arrow_type_next">
+									<img src="./images/pagination-projects/next.svg" alt="Вперед">
+								</div>
+							</div>
+							<div class="pagination-projects__numbers numbers-pagination">
+								<div class="numbers-pagination__current">1</div>
+								<span> / </span>
+								<div class="numbers-pagination__all-pages">30</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
+
 		<div class="popup popup-industrial">
 			<div class="popup-industrial__content">
 				<div class="popup__close">
@@ -434,7 +502,9 @@
 			</div>
 		</div>
 	</div>
+	<script src="./script/select.js"></script>
 	<script src="./script/popup.js"></script>
+	<script src="./script/filter-project.js"></script>
 	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 	<script src="./script/slider.js"></script>
 	<script type="module" src="./script/functions.js"></script>

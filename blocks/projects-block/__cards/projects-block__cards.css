@@ -1,0 +1,10 @@
+.projects-block__cards {
+	display: flex;
+	margin: 0 -15px;
+}
+
+@media screen and (max-width: 767px) {
+	.projects-block__cards {
+		margin: 0 -8px;
+	}
+}

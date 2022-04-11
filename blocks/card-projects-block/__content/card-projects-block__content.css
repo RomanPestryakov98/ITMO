@@ -1,0 +1,4 @@
+.card-projects-block__content {
+	position: relative;
+	z-index: 3;
+}

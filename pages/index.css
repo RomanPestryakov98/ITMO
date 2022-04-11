@@ -75,6 +75,36 @@
 @import url(../blocks/card-industrial/__title/card-industrial__title.css);
 @import url(../blocks/card-industrial/__background/card-industrial__background.css);
 
+@import url(../blocks/our-projects/our-projects.css);
+@import url(../blocks/our-projects/__container/our-projects__container.css);
+@import url(../blocks/our-projects/__projects-block/our-projects__projects-block.css);
+@import url(../blocks/our-projects/__title/our-projects__title.css);
+
+@import url(../blocks/projects-block/projects-block.css);
+@import url(../blocks/projects-block/__navigation/projects-block__navigation.css);
+@import url(../blocks/projects-block/__cards/projects-block__cards.css);
+@import url(../blocks/projects-block/__card/projects-block__card.css);
+@import url(../blocks/projects-block/__button/projects-block__button.css);
+@import url(../blocks/projects-block/__button/_active/projects-block__button_active.css);
+@import url(../blocks/projects-block/__select/project-block__select.css);
+@import url(../blocks/projects-block/__option/project-block__option.css);
+
+@import url(../blocks/card-projects-block/card-projects-block.css);
+@import url(../blocks/card-projects-block/__background/card-projects-block__background.css);
+@import url(../blocks/card-projects-block/__text/card-projects-block__text.css);
+@import url(../blocks/card-projects-block/__logo/card-projects-block__logo.css);
+@import url(../blocks/card-projects-block/__container/card-projects-block__container.css);
+@import url(../blocks/card-projects-block/__button/card-projects-block__button.css);
+@import url(../blocks/card-projects-block/__content/card-projects-block__content.css);
+
+@import url(../blocks/pagination-projects/pagination-projects.css);
+@import url(../blocks/pagination-projects/__arrow/pagination-projects__arrow.css);
+@import url(../blocks/pagination-projects/__arrows/pagination-projects__arrows.css);
+
+@import url(../blocks/numbers-pagination/numbers-pagination.css);
+@import url(../blocks/numbers-pagination/__all-pages/numbers-pagination__all-pages.css);
+@import url(../blocks/numbers-pagination/__current/numbers-pagination__current.css);
+
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_open/popup_open.css);
 @import url(../blocks/popup/__close/popup__close.css);
@@ -89,3 +119,4 @@
 @import url(../blocks/popup-industrial/__title-opacity/popup-industrial__title-opacity.css);
 
 @import url(../blocks/_container/_container.css);
+

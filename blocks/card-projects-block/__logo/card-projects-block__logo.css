@@ -1,0 +1,27 @@
+.card-projects-block__logo {
+	margin-bottom: 20px;
+}
+
+.card-projects-block__logo svg {
+	fill: white;
+	text-align: left;
+	max-width: 200px;
+	max-height: 48px;
+}
+
+
+@media screen and (max-width: 1100px) {
+	.card-projects-block__logo {
+		margin-bottom: 12px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.card-projects-block__logo svg {
+		max-width: 172px;
+	}
+
+	.logo-sberbank  {
+		width: 172px;
+	}
+}

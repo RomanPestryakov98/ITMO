@@ -1,0 +1,20 @@
+.projects-block__select {
+	display: none;
+	width: 100%;
+	margin-bottom: 20px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	color: #FFFFFF;
+	background-color: #001337;
+	outline: none;
+	border: none;
+	padding: 10px 0;
+	border-bottom: 2px solid #009FAC;
+}
+
+@media screen and (max-width: 767px) {
+	.projects-block__select {
+		display: block;
+	}
+}

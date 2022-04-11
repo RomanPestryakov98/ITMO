@@ -1,0 +1,17 @@
+.projects-block__navigation {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 61px;
+}
+
+@media screen and (max-width: 1100px) {
+	.projects-block__navigation{
+		margin-bottom: 31px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.projects-block__navigation{
+		display: none;
+	}
+}
