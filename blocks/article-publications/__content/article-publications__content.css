@@ -1,0 +1,16 @@
+.article-publications__content {
+	padding: 20px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	background-color: white;
+	border-radius: 10px;
+	transition: bottom 0.3s ease 0s;
+}
+
+@media screen and (max-width: 991px) {
+	.article-publications__content {
+		position: relative;
+	}
+}

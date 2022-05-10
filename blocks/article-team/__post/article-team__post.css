@@ -1,0 +1,15 @@
+.article-team__post {
+	font-style: italic;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #009FAC;
+	text-align: center;
+}
+
+@media screen and (max-width: 767.98px) {
+	.article-team__post {
+		font-size: 10px;
+		line-height: 14px;	
+	}
+}

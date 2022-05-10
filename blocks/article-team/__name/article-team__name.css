@@ -1,0 +1,17 @@
+.article-team__name {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: #000D26;
+	margin-top: 20px;
+	margin-bottom: 4px;
+}
+
+@media screen and (max-width: 767.98px) {
+	.article-team__name {
+		font-size: 12px;
+		line-height: 16px;	
+		margin-top: 10px;
+	}
+}

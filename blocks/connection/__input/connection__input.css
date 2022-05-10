@@ -1,0 +1,22 @@
+.connection__input {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	outline: 0;
+	border: none;
+	letter-spacing: 0.1px;
+	color: #009FAC;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.connection__input::placeholder {
+	color: #009FAC;
+}
+
+@media screen and (max-width: 768px) {
+	.connection__input::placeholder {
+		font-size: 12px;
+		line-height: 16px;
+	}
+}

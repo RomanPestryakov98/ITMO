@@ -1,0 +1,24 @@
+.connection__form {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(200px, 1fr));
+	grid-template-rows: repeat(3, 1fr);
+	column-gap: 30px;
+	row-gap: 20px;
+	max-width: 1110px;
+	width: 100%;
+	margin-top: 60px;
+}
+
+@media screen and (max-width: 992px) {
+	.connection__form {
+		margin-top: 35px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.connection__form {
+		margin-top: 23px;
+		grid-template-columns: 1fr;
+		grid-template-rows: 44px 44px 44px 44px 140px 44px;
+	}
+}

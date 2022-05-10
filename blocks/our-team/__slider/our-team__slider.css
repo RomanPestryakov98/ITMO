@@ -1,0 +1,18 @@
+.our-team__slider {
+	width: calc(1110/1262*100%);	
+}
+
+@media screen and (max-width: 992px) {
+	.our-team__slider {
+		width: 100%;
+		margin-left: 30px;
+	}
+}
+
+@media screen and (max-width: 767.98px) {
+	.our-team__slider {
+		width: 90%;
+		margin-left: auto;
+		overflow: visible;
+	}
+}

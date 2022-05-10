@@ -1,0 +1,41 @@
+.education__button {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	letter-spacing: 0.1px;
+	color: #FFFFFF;
+	min-height: 60px;
+	width: 270px;
+	border-radius: 10px;
+}
+
+.education__button_active {
+	background-color: rgba(224, 240, 255, 1);
+	color: rgba(0, 13, 38, 1);
+	font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+	.education__button {
+		flex: 0 1 50%;
+	}
+}
+
+
+@media screen and (max-width: 479.98px) {
+	.education__button {
+		min-height: 40px;
+		font-size: 12px;
+		line-height: 16px;
+	}
+}

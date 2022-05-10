@@ -1,0 +1,13 @@
+.work {
+	background-color: #001337;
+	padding-top: 385px;
+	margin-top: -305px;
+	padding-bottom: 80px;
+}
+
+@media screen and (max-width: 767.98px) {
+	.work {
+		padding-top: 197px;
+		margin-top: -150px;
+	}
+}

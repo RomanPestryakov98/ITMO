@@ -1,0 +1,15 @@
+.education__card {
+	margin: 60px auto 35px;
+}
+
+@media screen and (max-width: 992px) {
+	.education__card {
+		margin: 40px auto 30px;
+	}
+}
+
+@media screen and (max-width: 479.98px) {
+	.education__card {
+		margin: 20px auto 16px;
+	}
+}

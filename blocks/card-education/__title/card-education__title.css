@@ -1,0 +1,25 @@
+.card-education__title {
+	margin: 0;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 0.1px;
+	color: #000D26;
+	margin-bottom: 24px;
+}
+
+@media screen and (max-width: 992px) {
+	.card-education__title {
+		font-size: 12px;
+		line-height: 16px;
+		letter-spacing: 0.0588372px;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 479.98px) {
+	.card-education__title {
+		max-width: 200px;
+		margin-bottom: 13px;
+	}
+}

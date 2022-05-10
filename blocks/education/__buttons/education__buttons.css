@@ -1,0 +1,12 @@
+.education__buttons {
+	display: inline-flex;
+	justify-content: center;
+	outline: 1px solid #E0F0FF;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+	.education__buttons {
+		width: 100%;
+	}
+}

@@ -1,0 +1,7 @@
+.social-article__item {
+	margin-right: 10px;
+}
+
+.social-article__item:last-child {
+	margin-right: 0;
+}

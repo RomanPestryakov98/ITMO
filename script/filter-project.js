@@ -183,6 +183,12 @@ function windowCard() {
 		const currentPage = document.querySelector('.numbers-pagination__current');
 		renderCard(getActiveButton(searchActiveButton()), +currentPage.textContent);
 	}
+	if (window.innerWidth <= 479.98) {
+		quanityCardInBlock = 1;
+		allPages.textContent = getQuanityPages(quanityCardInBlock, allCards);
+		const currentPage = document.querySelector('.numbers-pagination__current');
+		renderCard(getActiveButton(searchActiveButton()), +currentPage.textContent);
+	}
 }
 
 window.addEventListener('resize', windowCard);

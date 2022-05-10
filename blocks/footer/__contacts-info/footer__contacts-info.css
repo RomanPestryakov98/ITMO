@@ -1,0 +1,17 @@
+.footer__contacts-info {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	margin-bottom: 15px;
+}
+
+.footer__contacts-info:last-child {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+	.footer__contacts-info {
+		font-size: 12px;
+		line-height: 16px;
+	}
+}

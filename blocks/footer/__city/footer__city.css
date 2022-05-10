@@ -1,0 +1,13 @@
+.footer__city {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 12px;
+}
+
+@media screen and (max-width: 992px) {
+	.footer__city {
+		font-size: 18px;
+		line-height: 20px;
+	}
+}

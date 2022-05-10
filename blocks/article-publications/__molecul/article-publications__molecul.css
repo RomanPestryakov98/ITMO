@@ -1,0 +1,12 @@
+.article-publications__molecul {
+	position: relative;
+}
+
+.article-publications__action .article-publications__molecul:hover .social-article {
+	visibility: visible;
+	opacity: 1;
+}
+
+.article-publications__molecul_active {
+	z-index: 5;
+}

@@ -1,0 +1,9 @@
+.education__title {
+	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 479.98px) {
+	.education__title {
+		margin-bottom: 20px;
+	}
+}

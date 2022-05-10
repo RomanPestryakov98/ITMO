@@ -1,0 +1,15 @@
+.work__title {
+	margin-top: 80px;
+}
+
+@media screen and (max-width: 992px) {
+	.work__title {
+		margin-top: 60px;	
+	}
+}
+
+@media screen and (max-width: 767.98px) {
+	.work__title {
+		margin-top: 40px;	
+	}
+}

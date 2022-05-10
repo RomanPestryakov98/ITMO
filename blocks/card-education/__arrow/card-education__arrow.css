@@ -1,0 +1,8 @@
+.card-education__arrow {
+	max-width: 24px;
+	max-height: 24px;
+	transition: all 0.3s ease 0s;
+}
+.card-education__arrow {
+	stroke: #000D26;
+}

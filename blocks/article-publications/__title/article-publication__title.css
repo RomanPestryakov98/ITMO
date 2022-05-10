@@ -1,0 +1,9 @@
+.article-publications__title {
+	margin: 0;
+	margin-bottom: 4px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	color: #000D26;
+	max-width: 305px;
+}

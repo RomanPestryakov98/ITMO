@@ -1,0 +1,11 @@
+.article-publications__text {
+	margin: 0;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #000D26;
+	-webkit-line-clamp: 7;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

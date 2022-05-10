@@ -1,3 +1,18 @@
 .swiper-slide {
 	height: auto;
 }
+
+.publications__slider-block .swiper-slide {
+	margin-top: 37px;
+	transform: none;
+}
+
+
+@media screen and (min-width: 992px) {
+	.publications__slider-block .swiper-slide {
+		margin-top: 37px;
+	}	
+	.our-team__slider-block .swiper-slide {
+		
+	}
+}

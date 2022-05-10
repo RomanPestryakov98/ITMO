@@ -1,0 +1,14 @@
+.footer__info-text {
+	margin: 0;
+	margin-bottom: 38px;
+}
+
+.footer__info-text:last-child {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+	.footer__info-text:first-child {
+		display: none;
+	}
+}

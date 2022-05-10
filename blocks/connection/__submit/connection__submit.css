@@ -1,0 +1,30 @@
+.connection__submit {
+	cursor: pointer;
+	border: none;
+	outline: 0;
+	border-radius: 10px;
+	border: 1px solid white;
+	background-color: transparent;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	justify-content: center;
+	transition: border 0.3s ease 0s;
+}
+
+.connection__submit:hover {
+	border: 1px solid rgba(255, 255, 255, .5);
+}
+
+@media screen and (min-width: 768px) {
+	.connection__submit {
+		grid-column: 2 / 3;
+		grid-row: 3 / 4;
+		font-size: 18px;
+		line-height: 30px;
+	}
+}

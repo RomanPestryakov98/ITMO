@@ -1,0 +1,16 @@
+.article-publications {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+	min-height: 531px;
+}
+
+
+@media screen and (min-width: 991px) {
+	.article-publications:hover .article-publications__content {
+		bottom: 70px;
+		border-radius: 0;
+	}
+}

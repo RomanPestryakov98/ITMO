@@ -1,0 +1,13 @@
+.footer__content {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+	.footer__content {
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+}

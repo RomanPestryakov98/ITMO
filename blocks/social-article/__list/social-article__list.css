@@ -1,0 +1,22 @@
+.social-article__list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	background-color: white;
+	padding: 16px;
+	border-radius: 8px;
+}
+
+.social-article__list:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 12px;
+	left: 81%;
+	transform: translateX(-50%);
+	border-width: 8px 8px 0 8px;
+	border-color: white transparent transparent transparent;
+	border-style: solid;
+}

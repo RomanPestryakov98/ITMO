@@ -1,0 +1,20 @@
+.article-publications__content-image {
+	padding: 20px;
+	padding-bottom: 0;
+}
+
+.article-publications__image {
+	position: relative;
+	border-radius: 10px;
+	overflow: hidden;
+	padding-bottom: 73%;
+}
+
+.article-publications__image img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	object-fit: cover;
+}

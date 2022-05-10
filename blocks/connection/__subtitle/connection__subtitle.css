@@ -1,0 +1,22 @@
+.connection__subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 0.1px;
+	color: #FFFFFF;
+	max-width: 919px;
+}
+
+@media screen and (max-width: 992px) {
+	.connection__subtitle {
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
+
+@media screen and (max-width: 479.98px) {
+	.connection__subtitle {
+		font-size: 12px;
+		line-height: 16px;
+	}
+}

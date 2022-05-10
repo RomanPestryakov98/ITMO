@@ -1,0 +1,44 @@
+.publications__arrow {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: white;
+	box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: background-color 0.3s ease 0s;
+	position: relative;
+	pointer-events: auto;
+}
+
+.publications__arrow:hover {
+	background-color: #009FAC;
+}
+
+.publications__arrow_type-prev svg {
+	transform: rotate(-180deg);
+}
+
+.publications__arrow svg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 24px;
+	max-height: 24px;
+	stroke: #001337;
+}
+
+@media screen and (max-width: 1200px) {
+	.publications__arrow {
+		width: 46px;
+		height: 46px;
+	}
+	.publications__arrow img {
+		width: 26px;
+	}
+}
+
+
+

@@ -1,0 +1,24 @@
+.card-education__link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.card-education__link span {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	color: #000D26;
+	margin-right: 12px;
+}
+
+.card-education__link:hover span {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+	.card-education__link span {
+		font-size: 14px;
+		line-height: 19px;
+	}
+}

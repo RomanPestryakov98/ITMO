@@ -1,0 +1,21 @@
+.article-publications__link {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+.article-publications__link span {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	margin-right: 12px;
+	color: #FFFFFF;
+	display: inline;
+}
+
+@media screen and (max-width: 1100px) {
+	.article-publications__link span {
+		font-size: 14px;
+		margin-right: 6px;
+	}
+}
